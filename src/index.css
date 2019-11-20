@@ -32,3 +32,75 @@ body {
   font-size: 1.6rem;
   background-color: #eceff1;
 }
+
+.main-image {
+  height: 300px;
+  width: 350px;
+  transform: scale(1.2);
+  z-index: 10;
+  margin: 0 130px;
+  background: #fff;
+  padding: 10px;
+}
+
+.img-wrapper {
+  position: relative;
+}
+
+.title {
+  position: absolute;
+  left: 100px;
+  color: #fff;
+}
+
+.secondary-images {
+  height: 300px;
+  width: 350px;
+}
+
+.border {
+  background: #fff;
+  padding: 10px;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  33% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
